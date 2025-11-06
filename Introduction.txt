@@ -1,0 +1,11 @@
+print("""Introduction – L’employé 404
+
+Rentabilité. Productivité. Obéissance. Voici les piliers de notre monde. Et toi, 404, tu n’es qu’un rouage de plus."
+
+Dans un futur dystopique où les entreprises ont remplacé les gouvernements, The Corporation règne sans partage dans tous les domaines. Les employés ne sont plus des êtres humains, mais des numéros, des ressources, des statistiques. Et lorsque leur courbe de rentabilité chute… ils disparaissent.
+
+Tu es 404, un employé sans visage, sans passé, sans avenir. Tu travailles jour et nuit sous l’œil froid des superviseurs automatisés. Tu ignores pourquoi tu es là. Tu ignores ce que tu fais vraiment. Mais une chose est sûre : tu n’es plus rentable. Malgré le fait que tu travailles dans The Corporation depuis plusieurs décennies, ta fin est proche et tu le sais.
+
+Tu as deux choix : obéir jusqu’à l’effacement, ou briser le système de l’intérieur.
+
+Bienvenue dans L’employé 404. Le travail, c’est la mort. La rébellion, c’est l’espoir.""")
