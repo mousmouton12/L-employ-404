@@ -1,0 +1,180 @@
+import json
+
+#Définition des différents objets(items) du jeu
+data = {
+    "bouteille_eau":{
+        "id":"bouteille_eau",
+        "name":"bouteille d'eau",
+        "type":"consommable",
+        "rarity":"commun",
+        "description":"Boisson transparente remplie de divers minéraux qui permet de restaurer 5 points de vie à celui qui la boit.",
+        "effects": {
+            "heal":5
+            
+        }
+    },
+
+    "pomme":{
+        "id":"pomme",
+        "name":"pomme",
+        "type":"consommable",
+        "rarity":"commun",
+        "description":"Fruit rouge juteux qui, du fait de rassasier et d’hydrater, restaure 6 points de vie à celui qui le mange.",
+        "effects":{
+            "heal":6
+        }
+    },
+
+    "cafe":{
+        "id":"cafe",
+        "name":"cafe",
+        "type":"consommable",
+        "rarity":"commun",
+        "description":"Boisson dont une simple dose agit comme anesthésiant en soignant de 3 points de vie la personne qui la boit.",
+        "effects":{
+            "heal":3
+        }
+    },
+
+    "tasse":{
+        "id":"tasse",
+        "name":"tasse",
+        "type":"arme",
+        "rarity":"commun",
+        "description":"Jeter cet objet sur votre adversaire pour lui infliger 3 dégâts. Cependant, vous ne pourrez pas le réutiliser.",
+        "effects":{
+            "damage":3 #PROBLEME DUTILISATION UNIQUE
+        }
+    },
+
+    "barre_chocolat":{
+        "id":"barre_chocolat",
+        "name":"barre chocolatée",
+        "type":"consommable",
+        "rarity":"commun",
+        "description":"Petite sucrerie permettant de restaurer 4 points de vie à la personne qui la consomme.",
+        "effects":{
+            "heal":4
+        }
+    },
+
+    "stylo": {
+        "id": "stylo",
+        "name": "stylo",
+        "type": "arme",
+        "rarity": "commun",
+        "description": "Un simple stylo, mais peut causer 2 dégâts à l'adversaire si il est utilisé avec précision.",
+        "effects": {
+            "damage":2
+        }
+    },
+
+    "classeur": {
+        "id": "classeur",
+        "name": "classeur",
+        "type": "arme",
+        "rarity": "commun",
+        "description": "Objet remplis de documents et fichiers lourds. Un simple lancer de l'objet sur l'ennemi lui cause 3 dégâts.",
+        "effects": {
+            "damage":3
+        }
+    },
+
+    "lunette":{
+        "id":"lunette",
+        "name":"lunette",
+        "type":"outil",
+        "rarity":"commun",
+        "description":"Outil permettant de voir plus aisément les attaques ennemies. + 5% d'esquive",
+        "effects":{
+            "esquive":5 #ATTENTION, IL FAUDRA PRECISE QUE C'EST EN POURCENTAGE
+        }
+    },
+
+    "sac":{
+        "id":"sac",
+        "name":"sac",
+        "type":"arme",
+        "rarity":"commun",
+        "description":"Objet qui permet d'infliger 2 dégâts à l'ennemi.",
+        "effects":{
+            "damage":2
+        }
+    },
+    
+    "chaussure":{
+        "id":"chaussure",
+        "name":"chaussure",
+        "type":"arme",
+        "rarity":"commun",
+        "description":"Jeter cet objet sur l'ennemi lui inflige 3 dégâts."
+        "effects":{
+            "damage":3
+        }
+    },
+
+    "agrafeuse":{
+        "id":"agrafeuse",
+        "name":"agrafeuse",
+        "type":"arme",
+        "rarity":"non commun",
+        "description":"Outil permettant de faire très mal là où il faut.",
+        "effects":{
+            "damage":5
+        }
+    },
+
+    "ciseau":{
+        "id":"ciseau",
+        "name":"ciseau",
+        "type":"arme",
+        "rarity":"non commun",
+        "description":"Tranchant et rapide, l'ennemi n'aura pas le temps de réagir.",
+        "effects":{
+            "damage":6
+        }
+    },
+
+    "produit_menager":{
+        "id":"produit_menager",
+        "name":"produit_menager",
+        "type":"arme",
+        "rarity":"non commun",
+        "description":"Produit chimique irritant qui provoque des démangeaisons et des brûlures aux yeux de l’ennemi et lui inflige 7 dégâts.",
+        "effects":{
+            "damage":7
+        }
+    },
+
+    "latte_metallique":{
+        "id":"latte_metallique",
+        "name":"latte metallique",
+        "type":"arme",
+        "rarity":"non commun",
+        "description":"Objet à lancer sur l'adversaire et qui lui cause 5 dégâts.",
+        "effects":{
+            "damage":5
+        }
+    },
+
+    "perceuse":{
+        "id":"perceuse",
+        "name":"perceuse",
+        "type":"arme",
+        "rarity":"non commun",
+        "description":"Utile pour percer les défenses adverses."
+        "effects":{
+            "damage":6
+        }
+    },
+
+    "couteau":{
+        "id":"couteau",
+        "name":"couteau de cuisine",
+        "type":"arme",
+        "rarity":"rare",
+        "description":"Arme permettant de trancher un ennemi.",
+        "effects":{
+            "damage":10
+        }
+    },
