@@ -1,0 +1,236 @@
+[
+  {
+    "id" : "stagiaire",
+    "name" : "Stagiaire en marketing",
+    "PV" : 10,
+    "ATK" : 2,
+    "floor_min" : 1,
+    "floor_max" : 5,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Jet de Café Chaud",
+      "value" : 2
+    }
+  },
+  {
+    "id" : "Robot_A",
+    "name" : "Robot-Aspirateur Dozolme",
+    "PV" : 12,
+    "ATK" : 5,
+    "floor_min" : 1,
+    "floor_max" : 10,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Rejet de déchets",
+      "value" : 5
+    }
+  },
+  {
+    "id" : "Security_guard",
+    "name" : "Garde de sécurité en stage",
+    "PV" : 20,
+    "ATK" : 3,
+    "floor_min" : 1,
+    "floor_max" : 12,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Coup de Matraque",
+      "value" : 3
+    }
+  },
+  {
+    "id" : "Salesman",
+    "name" : "Vendeur agressif",
+    "PV" : 22,
+    "ATK" : 6,
+    "floor_min" : 10,
+    "floor_max" : 20,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Vente forcée",
+      "value" : 6
+    }
+  },
+  {
+    "id" : "Guard",
+    "name" : "Garde à bouclier",
+    "PV" : 18,
+    "ATK" : 0,
+    "floor_min" : 9,
+    "floor_max" : 20,
+    "ability" : {
+      "type" : "block",
+      "name" : "Bouclier",
+      "value" : 5
+    }
+  },
+  {
+    "id" : "Drone1",
+    "name" : "Drone de proximité SAT-II",
+    "PV" : 12,
+    "ATK" : 10,
+    "floor_min" : 12,
+    "floor_max" : 25,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Tir de laser ultra-puissant",
+      "value" : 10
+    }
+  },
+  {
+    "id": "elite_guard",
+    "name": "Garde d'élite",
+    "PV": 24,
+    "ATK": 12,
+    "floor_min": 20,
+    "floor_max": 30,
+    "ability": {
+      "type": "attack",
+      "name": "Tir au pistolet",
+      "value": 12
+    }
+  },
+  {
+    "id" : "science",
+    "name" : "Scientifique fou",
+    "PV" : 25,
+    "ATK" : 14,
+    "floor_min" : 20,
+    "floor_max" : 35,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Jet de potion acide",
+      "value" : 14
+    }
+  },
+  {
+    "id" : "Shield_bot",
+    "name" : "Robot-Bouclier AS-II",
+    "PV" : 38,
+    "ATK" : 0,
+    "floor_min" : 21,
+    "floor_max" : 33,
+    "ability" : {
+      "type" : "block",
+      "name": "Barrière énergétique",
+      "value" : 15
+    }
+  },
+  {
+    "id" : "rh_director",
+    "name" : "Directeur des RH",
+    "PV" : 50,
+    "ATK": 23,
+    "floor_min" : 30,
+    "floor_max" : 45,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Baratin de RH",
+      "value" : 23
+    }
+  },
+  {
+    "id" : "Monster",
+    "name" : "Abomination Expérimentale",
+    "PV" : 58,
+    "ATK" : 28,
+    "floor_min" : 32,
+    "floor_max" : 47,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Attaque Abominable",
+      "value" : 28
+    }
+  },
+  {
+    "id" : "Security_chef",
+    "name" : "Chef de la Sécurité",
+    "PV" : 64,
+    "ATK" : 30,
+    "floor_min" : 35,
+    "floor_max" : 45,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Suplex Allemand",
+      "value" : 30
+    }
+  },
+  {
+    "id" : "boucliax",
+    "name" : "Boucliax-3000",
+    "PV" : 80,
+    "ATK" : 0,
+    "floor_min" : 32,
+    "floor_max" : 46,
+    "ability" : {
+      "type" : "block",
+      "name" : "Garde-3000",
+      "value" : 25
+    }
+  },
+  {
+    "id" : "bodyguard",
+    "name" : "Garde du Corps Personnel du PDG",
+    "PV" : 72,
+    "ATK" : 36,
+    "floor_min" : 40,
+    "floor_max" : 99999999,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Protection rapprochée",
+      "value" : 37
+    }
+  },
+  {
+    "id" : "tax_manager",
+    "name" : "Spécialiste de la déduction d'impôts",
+    "PV" : 70,
+    "ATK" : 40,
+    "floor_min" : 42,
+    "floor_max" : 999999999,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Éxonération Maximale",
+      "value" : 40
+    }
+  },
+  {
+    "id" : "judge",
+    "name" : "Juge Corrompu",
+    "PV" : 76,
+    "ATK" : 38,
+    "floor_min" : 40,
+    "floor_max" : 999999999999,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Déboutage ultime",
+      "value" : 38
+    }
+  },
+  {
+    "id" : "creator",
+    "name" : "Créateur-3000",
+    "PV" : 100,
+    "ATK" : 0,
+    "floor_min" : 40,
+    "floor_max" : 9999999999999,
+    "ability" : {
+      "type" : "block",
+      "name" : "Bouclier Humain",
+      "value" : 40
+    }
+  },
+  {
+    "id" : "ceo",
+    "name" : "PDG Romain Boulard",
+    "PV" : 500,
+    "ATK" : 50,
+    "floor_min" : 50,
+    "floor_max" : 50,
+    "ability" : {
+      "type" : "attack",
+      "name" : "Attaque Capitaliste",
+      "value" : 50
+    }
+  }
+]
