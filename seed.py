@@ -11,5 +11,7 @@ def rng():
         except ValueError:                      # Si entrée incorrect, impose une seed
             seed = random.randint(0, 9999999999)
             print("Seed invalide. Attribution d'une seed aléatoire :", seed)
-
+            
+    #Pour que le scenario soit toujours previsible.
+    random.seed(seed)
     return seed
