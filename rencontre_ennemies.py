@@ -61,7 +61,7 @@ def ennemis_par_etage(liste_e, profondeur):      #Pour pas melanger car déja ut
     nb_spawn = 0
     if profondeur_10 == 1:
         nb_spawn = 1
-    elif profondeur_10 == (8,9,0):
+    elif profondeur_10 in (8,9,0):
         nb_spawn = random.randint(1,3)
     else :
         nb_spawn = random.randint(1,2)
@@ -77,4 +77,5 @@ def ennemis_par_etage(liste_e, profondeur):      #Pour pas melanger car déja ut
         ennemies_spawned.append(new_enemy_instance)                 #Rajoute à ennemies_spawned
 
     return ennemies_spawned
+
 
