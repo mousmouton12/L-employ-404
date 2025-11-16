@@ -1,0 +1,67 @@
+[
+    {
+        "soins_instantané":{
+            "id":"soins_instantanés",
+            "name":"Soins instantanés",
+            "description":"Vous permet de vous soigner instantanément en vous rajoutant quelques points de vie.",
+            "effects":{
+                "heal":10
+            }
+        },
+
+        "vision_nocturne":{
+            "id":"vision_nocturne",
+            "name":"Vision nocturne",
+            "description":"Lunette vous permettant de voir parfaitement dans l'obsurité. Permet ainsi d'augmenter les dégâts que vous faites à l'adversaire.",
+            "effects":{
+                "damage":15
+            }
+        },
+
+        "mentalité_capitaliste":{
+            "id":"mentalité_capitaliste",
+            "name":"Mentalité capitaliste",
+            "description":"Vous permet d'adopter une vision capitaliste du monde et de prédire les points faibles de vos adversaires. Par conséquent vos attaques infligent plus de dégâts qu'en temps normal.",
+            "effects":{
+                "damage":20
+            }
+        },
+
+        "montre_corporation":{
+            "id":"montre_corporation",
+            "name":"Montre The Corporation",
+            "description":"Montre crée par The Corporation permettant de mettre le temps en slow motion. Vous infligez dès lors beaucoup plus de dégâts à votre adversaire.",
+            "effects":{
+                "damage":25
+            }
+        },
+
+        "attaque_chimique":{
+            "id":"attaque_chimique",
+            "name":"Attaque chimique",
+            "description":"Les connaissances de la chimie sont désormais entre vos mains. Vos création permettent de vous soignez de plusieurs points de vie.",
+            "effects":{
+                "heal":20
+            }
+        },
+
+        "charisme":{
+            "id":"charisme",
+            "name":"Charisme",
+            "description":"Votre charisme ne cesse de croître et équivaut presque celui d'une légende de courses de voitures de rue, Vin Diesel. En vous voyant, les adversaires vous craignent et sont plus vulnérables à vos attaques. Infligez dès lors des dégâts supplémentaires lors de vos attaques.",
+            "effects":{
+                "damage":10
+            }
+        },
+
+        "plante_medicinale":{
+            "id":"plante medicinale",
+            "name":"Plante médicinale",
+            "description":"Expert en plantes médicinales, vous pouvez désormais soigner vos blessures. Augmente vos points de vie.",
+            "effects":{
+                "heal":25
+            }
+        }
+
+    }
+]
