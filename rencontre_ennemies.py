@@ -18,7 +18,7 @@ def scaling(ennemi_template, etage):     #Pour que la difficulté augmente par �
     base_atk = ennemi_template["ATK"]
 
     facteur_scale = 1 + 0.10*(d-1)       #Vient directement du PDF du prof
-    new_max_pv = base_pv * facteur_scale
+    new_max_pv = int(base_pv * facteur_scale)
     new_atk = base_atk + (d//3)          #Vient aussi du PDF du prof
 
     ability_template = ennemi_template["ability"]
@@ -77,5 +77,6 @@ def ennemis_par_etage(liste_e, profondeur):      #Pour pas melanger car déja ut
         ennemies_spawned.append(new_enemy_instance)                 #Rajoute à ennemies_spawned
 
     return ennemies_spawned
+
 
 
