@@ -7,8 +7,10 @@ def creer_joueur(nom):
         "ATK":8,          #Attaque initial (sans boosts)
         "Inventaire": [], #Liste qui va comprendre la place de stock qu'il y a dans l'inventaire.
         "Competences": [],  #Liste qui va comprendre les différentes compétences du personnage.
+        "Bouclier": 0,
         "Bonus_fuite": 0,
         "score": 0
     }
 
     return joueur
+
