@@ -17,7 +17,7 @@
         "name":"Pomme",
         "type":"consommable",
         "rarity":"commun",
-        "description":"Il n'en existe plus beaucoup dans ce monde capitaliste. Restaure des points de vie à celui qui le mange.",
+        "description":"Il n'en existe plus beaucoup dans ce monde capitaliste. Restaure des points de vie à celui qui la mange.",
         "effects":{
             "heal":6
         }
@@ -232,4 +232,5 @@
         }
     }
 }
+
 ]
