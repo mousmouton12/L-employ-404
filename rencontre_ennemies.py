@@ -46,7 +46,7 @@ def ennemis_par_etage(liste_e, profondeur):      #Pour pas melanger car déja ut
     if profondeur == 50:
         for e in liste_e:
             if e["id"] == "ceo" :
-                boss_copie = {         # On crée une copie pour pouvoir modifier ses stats
+                boss_copie = {         # On crée une copie pour pouvoir modifier ses stats sans changer le modèle initial
                  "id" : e["id"],
                  "name" : e["name"],
                  "PV" : e["PV"],
@@ -77,6 +77,7 @@ def ennemis_par_etage(liste_e, profondeur):      #Pour pas melanger car déja ut
         ennemies_spawned.append(new_enemy_instance)                 #Rajoute à ennemies_spawned
 
     return ennemies_spawned
+
 
 
 
