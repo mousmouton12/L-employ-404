@@ -1,6 +1,6 @@
 [
-{
-    "bouteille_eau":{
+ {
+ {
         "id":"bouteille_eau",
         "name":"Bouteille d'eau",
         "type":"consommable",
@@ -117,4 +117,5 @@
         }
 
     }
+
 ]
