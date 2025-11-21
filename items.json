@@ -1,0 +1,107 @@
+[
+    {
+        "id":"bouteille_eau",
+        "name":"Bouteille d'eau",
+        "type":"consommable",
+        "rarity":"commun",
+        "description":"Toujours aussi rafraîchisante. Permet de restaurer quelques points de vie à celui qui la boit.",
+        "effects": {
+            "heal":5
+            
+        }
+    },
+    {
+        "id":"pomme",
+        "name":"Pomme",
+        "type":"consommable",
+        "rarity":"commun",
+        "description":"Il n'en existe plus beaucoup dans ce monde capitaliste. Restaure des points de vie à celui qui le mange.",
+        "effects":{
+            "heal":6
+        }
+    },
+    {
+        "id":"cafe",
+        "name":"Café",
+        "type":"consommable",
+        "rarity":"commun",
+        "description":"Agit comme anesthésiant, soigne quelques points de vie de la personne qui la boit.",
+        "effects":{
+            "heal":3
+        }
+    },
+    {
+        "id":"tasse",
+        "name":"Tasse : le meilleur employé !",
+        "type":"consommable",
+        "rarity":"commun",
+        "description":"Servait à la base à récompenser un employé. Jeter cet objet sur votre adversaire pour lui infliger des dégâts minimes. Cependant, vous ne pourrez pas le réutiliser.",
+        "effects":{
+            "damage":3
+        }
+    },
+    {
+        "id":"barre_chocolat",
+        "name":"Barre chocolatée",
+        "type":"consommable",
+        "rarity":"commun",
+        "description":"Petite sucrerie permettant de restaurer des points de vie à la personne qui la consomme.",
+        "effects":{
+            "heal":4
+        }
+    },
+    {
+        "id":"lunette",
+        "name":"Lunette",
+        "type":"outil",
+        "rarity":"commun",
+        "description":"Outil permettant de voir plus aisément les attaques ennemies et qui par conséquent augmente la chance de fuite.",
+        "effects":{
+            "fuite":5
+        }
+    },
+    {
+        "id":"dossiers_rh",
+        "name":"Dossiers des Recherches Humaines",
+        "type":"outil",
+        "rarity":"epic",
+        "description":"Ces dossiers vous permettrons d'avoir un boost de +15% de chance de fuite.",
+        "effects":{
+            "fuite":15
+        }
+    },
+    {
+        "id":"potion_miracle",
+        "name":"Potion Miracle",
+        "type":"consommable",
+        "rarity":"legendaire",
+        "description":"Potion permettant d'éliminer de façon instantané tous les ennemis à proximité. Une fois utilisé, vous ne pourrez pas réutilisez la même Potion Miracle.",
+        "effects":{
+            "damage":999
+        }
+    },
+    {
+        "id":"soins_instantanés",
+        "name":"Potion soin instantanés",
+        "description":"Vous permet de vous soigner instantanément en vous rajoutant quelques points de vie.",
+        "effects":{
+            "heal":10
+        }
+    },
+    {
+        "id":"potion chimique",
+        "name":"Potion chimique",
+        "description":"Les connaissances de la chimie sont désormais entre vos mains. Vos création permettent de vous soignez de plusieurs points de vie.",
+        "effects":{
+            "heal":20
+        }
+    },
+    {
+        "id":"plante medicinale",
+        "name":"Plante médicinale",
+        "description":"Expert en plantes médicinales, vous pouvez désormais soigner vos blessures. Augmente vos points de vie.",
+        "effects":{
+            "heal":25
+        }
+    }
+]
