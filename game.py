@@ -2,14 +2,10 @@ import json
 import random
 import os                 #Donne accès aux fonctionnalités du système d'exploitation
 import models.player
-import models.rencontre_ennemi
+import models.rencontre_ennemies
 import systems.combat
 import systems.seed
 import systems.io_cli
-
-import combat
-import player
-import rencontre_ennemies
 
 
 def charger_donnees(fichier):               #Fonction générale pour charger un json
@@ -47,11 +43,11 @@ def lancer_jeu():
     print("\nDans un monde dystopique où une méga industrie du nom de The Corporation a remplacé les gouvernements et règne dans tous les domaines sans partage ni justice, vous êtes Employé 404, une personne sans visage, sans avenir, parmis des milliers d'autres comme vous, travaillant dans cette méga entreprise. Dans cette méga structure, l'humain n'est que statistique et lorsque sa courbe de rentabilité chute, il disparaît... \nEn tant qu'Employé 404, vous êtes dans cette entreprise depuis des décennies mais vous le savez très bien, votre heure est proche. Vous devez faire un choix. The Corporation, le travail c'est la mort, la révolte, c'est l'espoir.")
     seed.rng()
 
-    liste_ennemis_data = charger_donnees(enemies.json)
-    liste_items_data = charger_donnees(items.json)
-    liste_armes_data = charger_donnees(armes.json)
+    liste_ennemis_data = charger_donnees("enemies.json")
+    liste_items_data = charger_donnees("items.json")
+    liste_armes_data = charger_donnees("armes.json")
 
-    nom_joueur = intput("\nAbandonner votre matricule de pantin et choisissez votre nom :")
+    nom_joueur = input("\nAbandonner votre matricule de pantin et choisissez votre nom :")
     joueur = player.creer_joueur(nom_joueur)
 
     etage = 1
@@ -82,9 +78,10 @@ def lancer_jeu():
             print("C'est ici que le mode Infini commence")
 
         etage = etage + 1
-        intput("\nAppuyez sur n'importe quel bouton pour faire monter l'ascenceur...")
+        input("\nAppuyez sur n'importe quel bouton pour faire monter l'ascenceur...")
 
 lancer_jeu()
+
 
 
 
